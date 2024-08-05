@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+body #image-el{
+    text-align: center;
+    margin-top: 10px;
+}
+body #inform-el
+{
+ text-align: center;
+ font-weight: bold;
+ color: blue;
+
+}
+#input-el1{
+    width: 350px;
+    height:30px;
+    border-radius: 12px;
+    border:none;
+    background-color:rgba(146, 144, 144,0.3);
+    background-image: url(./images/user-removebg-preview.png);
+    background-position: left 5px center;
+background-repeat: no-repeat;
+background-size: 35px;
+padding-left: 45px;
+padding-top: 2px;
+padding-bottom: 2px;
+font-weight: bold;
+}
+#nameError{
+    margin-top: 5px;
+
+    color: red;
+}
+#input-el2{
+    width: 350px;
+    height:30px;
+    border-radius: 12px;
+    border:none;
+    background-color:rgba(146, 144, 144,0.3);
+    background-image: url(./images/lock-removebg-preview.png);
+    background-position: left 5px center;
+background-repeat: no-repeat;
+background-size: 35px;
+padding-left: 45px;
+padding-top: 2px;
+padding-bottom: 2px;
+font-weight: bold;
+margin-top: 0px;
+}
+#mobileError{
+    margin: 0 auto;
+    color: red;
+}
+#input-el3{
+    
+    width: 350px;
+    height:30px;
+    border-radius: 12px;
+    border:none;
+    background-color:rgba(146, 144, 144,0.3);
+    background-image: url(./images/phone-removebg-preview.png);
+    background-position: left 9px center;
+background-repeat: no-repeat;
+background-size: 25px;
+padding-left: 45px;
+padding-top: 2px;
+padding-bottom: 2px;
+font-weight: bold;
+margin-top: 0px;
+}
+#cb{
+    margin-top: 20px;
+    font-weight:1000px ;
+}
+#signin{
+    width: 350px;
+    height:30px;
+    border-radius: 12px;
+    border:none;
+    margin-top: 20px;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+}
+#signin:hover{
+    cursor: pointer;
+}
+.errors{
+    margin:0 auto;
+    height: 15px;
+    /* border:1px solid black; */
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: bold;
+}
+@media all and (max-width:412px){
+    .errors{
+        width:250px;
+    }
+    body #image-el img{
+        width:200px;
+        height:200px;
+        margin:0 auto;
+    }
+    #input-el3{
+        width:250px
+    }
+    #input-el2{
+        width:250px;
+    }
+    #input-el1{
+        width:250px
+    }
+    #sign #signin{
+        width:250px;
+    }
+}
