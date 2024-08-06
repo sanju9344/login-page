@@ -110,7 +110,7 @@ margin-top: 0px;
         margin:0 auto;
     }
     #input-el3{
-        width:250px
+        width:250px;
     }
     #input-el2{
         width:250px;
@@ -118,7 +118,7 @@ margin-top: 0px;
     #input-el1{
         width:250px
     }
-    #sign #signin{
-        width:250px;
+    #sig4 #signin{
+        width: 250px;
     }
 }
